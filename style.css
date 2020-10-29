@@ -1,0 +1,188 @@
+html,body
+{
+  margin: 0;
+  padding: 0;
+  display: inline;
+  overflow-x: hidden;
+}
+.primary-menu
+{
+  font-size: 15px;
+  font-family: "Roboto";
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.primary-menu li
+{
+  color: #202020;
+  list-style-type: none;
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.primary-menu li a
+{
+  text-decoration: none;
+  padding: 3px;
+  color: #202020;
+}
+.primary-menu li a:hover
+{
+  border-bottom: 1px solid #008000;
+}
+.div_menu
+{
+  float:right;
+  width:60%;
+  padding-top:1%;
+  padding-left: 4%;
+}
+.logo
+{
+  float:left;
+  width:26%;
+  padding: 2%;
+}
+.slider
+{
+  clear: both;
+}
+.pasek
+{
+  width: 100%;
+  height: 4px;
+  background-color: #008000;
+  clear: both;
+}
+.pasek_gora
+{
+  width: 100%;
+  height: 50px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #008000;
+   z-index:1;
+}
+.data
+{
+  float: right;
+  margin-right: 3%;
+  font-family: "Roboto";
+  color: white;
+  position:relative;
+  top: 35%;
+}
+.kontakt
+{
+  float: left;
+  font-family: "Roboto";
+  text-decoration: none;
+  height: 38px;
+  margin-top: 12px;
+}
+.kontakt a
+{
+  color: white;
+  text-decoration: none;
+  margin-top: 4px;
+}
+.a2
+{
+position:absolute;
+margin-left: 15%;
+}
+.a1
+{
+margin-left: 5%;
+position:absolute;
+}
+.img2
+{
+margin-left: 13%;
+position:absolute;
+}
+.img1
+{
+margin-left: 3%;
+position:absolute;
+}
+
+.stopka
+{
+height: 300px;
+width: 100%;
+background-color: #E0E0E0;
+font-family: 'Comfortaa';
+font-size: 14px;
+border-top: 1px solid #A0A0A0;
+}
+.stopka1
+{
+margin-left: 13%;
+height: 90%;
+width: 25%;
+float: left;
+}
+.stopka2
+{
+height: 90%;
+width: 25%;
+float: left;
+}
+.stopka3
+{
+float: left;
+height: 90%;
+width: 25%;
+}
+.stopka4
+{
+float: left;
+height: 10%;
+width: 100%;
+background-color: #606060;
+padding: 1%;
+font-size: 12px;
+}
+.posty
+{
+border: 1px solid #606060;
+padding: 15px;
+text-align: justify;
+width: 80%;
+font-family: 'Montserrat';
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.posty p
+{
+font-size: 16px;
+}
+
+.posty figure
+{
+  padding: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.posty figure img
+{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin 10px;
+  width: 50%;
+  border-radius: 5px;
+}
+.posty h2
+{
+  margin-top: 20px;
+  border-bottom: 1px solid #606060;
+}
